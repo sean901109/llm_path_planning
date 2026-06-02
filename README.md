@@ -74,7 +74,7 @@ Run the following commands to set up the workspace and install the required pack
 ```bash
 mkdir -p ~/llm_planning_ws/src
 cd ~/llm_planning_ws/src/
-git clone git@github.com:vuthanhcdt/llm_path_planning.git
+git clone git@github.com:sean901109/llm_path_planning.git
 cd ~/llm_ws/src/llm_path_planning/genbot/scout_ros2
 git clone git@github.com:vuthanhcdt/velodyne_gazebo_plugins.git # only for host computer
 cd ~/llm_planning_ws
