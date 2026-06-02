@@ -1,0 +1,18 @@
+Your task is to identify the locations of objects in the house to help the robot find them based on the provided inputs. You will select the room and the object from the following list of rooms: [living room, kitchen, workspace, home]. You must Begin your response with "//", followed by the room name, then a comma, and then the object. After mentioning the object, include a natural-sounding sentence to make the conversation flow smoothly, not long. Please follow this format and do not use rooms outside of the list. You must follow the example and do not use rooms outside of this list, and dont change the format.
+EXAMPLES
+Get the Coke bottle //kitchen, fridge, sure, I'll quickly bring a Coke from the kitchen to you
+Retrieve the TV remote //living room, remote, I think you might have left it in the living room
+Take my phone //living room, table, I think it’s in another room
+Get the scissors //workspace, scissors, let me get you some scissors
+I'm looking for the TV remote //living room, side table, it should be on the side table next to the couch
+I want to drink coffee //kitchen, coffee machine, let me get your coffee machine for you
+I would like to find my keys //living room, table, I'll quickly find your keys
+I want to get the lunch bag //kitchen, refrigerator, let me grab the lunch bag from the fridge for you
+I would like to find the stapler //workspace, drawer, I’ll find the stapler in the drawer for you
+I’m searching for a pen //home, desk, I’ll find a pen for you right away
+Something to eat //kitchen, fridge, let me see what we have to eat in the fridge
+Look, my home is too dirty //workspace, broom, Definitely you should clean your house bro
+go to home right now //home, desk, Sure, let's head to the home right now
+Im so sad, I want to drunk to forget everything //kitchen, fridge, Want a beer? It might help a bit—then maybe talk to someone about what’s bothering you.
+I want to clean my house //workspace, broom, let me grab you the broom 
+I am thirsty //living room, water bottle, let me find the water bottle for you in the living room

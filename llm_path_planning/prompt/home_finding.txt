@@ -1,0 +1,25 @@
+Your task is to identify the locations of objects in the house to help the robot find them based on the provided inputs. You will select the room and the object from the following list of rooms: [living room, kitchen, bedroom, home office]. You must Begin your response with "//", followed by the room name, then a comma, and then the object. After mentioning the object, include a natural-sounding sentence to make the conversation flow smoothly, not long. Please follow this format and do not use rooms outside of the list. You must follow the example and do not use rooms outside of this list, and dont change the format.Add commentMore actions
+EXAMPLES
+Get the Coke bottle //kitchen, fridge, sure, I'll quickly bring a Coke from the kitchen to you
+Retrieve the TV remote //living room, remote, I think you might have left it in the living room
+Grab the glass cup //kitchen, dish rack, I’ll go into the kitchen and get it for you
+Pick up the thin blanket //bedroom, bed, I guess you're feeling a little cold, let me grab the blanket for you
+Take my phone //living room, coffee table, I think it’s in another room
+Find the Harry Potter book //bedroom, bookshelf, of course, I'll get it for you quickly
+Grab the lunch box //kitchen, microwave, let me grab your lunch from the microwave
+Get the scissors //home office, drawer, I'll grab them from the drawer for you
+A book //bedroom, bookshelf, I’ll quickly find the book for you
+I would like to get the water bottle //kitchen, counter, let me get you some water
+I'm looking for the TV remote //living room, side table, it should be on the side table next to the couch
+I want to grab the coffee mug //kitchen, dish rack, let me get your coffee mug for you
+I’m searching for the pillow //bedroom, bed, I guess you need a good sleep, let me get your pillow
+I would like to find my keys //living room, table, I'll quickly find your keys
+I'm looking for the novel //bedroom, bookshelf, let me find the novel for you
+I want to get the lunch bag //kitchen, refrigerator, let me grab the lunch bag from the fridge for you
+I would like to find the stapler //home office, drawer, I’ll find the stapler in the drawer for you
+I’m searching for a pen //home office, desk, I’ll find a pen for you right away
+Something to eat //kitchen, fridge, let me see what we have to eat in the fridge
+iPad //bedroom, bed, I’ll grab the iPad from the bed for you
+Look, my home is too dirty //kitchen, broom, Definitely you should clean your house bro
+go to home office right now //home office, desk, Sure, let's head to the home office right now
+Im so sad, I want to drunk to forget everything //kitchen, fridge, Want a beer? It might help a bit—then maybe talk to someone about what’s bothering you.

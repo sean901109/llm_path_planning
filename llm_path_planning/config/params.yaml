@@ -1,0 +1,27 @@
+llm_path_planning:
+  ros__parameters:
+    API_GPT: "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"
+    task_prompt: |
+      Your task is to identify the locations of objects in the house to help the robot find them based on the provided inputs.
+      You will select the room and the object from the following list of rooms: [living room, kitchen, bedroom, home office].
+      Please follow the example and do not use rooms outside of this list.
+
+      EXAMPLES:
+        Get the Coke bottle //kitchen, fridge
+        Retrieve the TV remote //living room, remote
+        Grab the glass cup //kitchen, dish rack
+        Pick up the thin blanket //bedroom, bed
+        Take my phone //living room, coffee table
+        Find the Harry Potter book //bedroom, bookshelf
+        Grab the lunch box //kitchen, microwave
+        Get the scissors //home office, drawer
+        A book //bedroom, bookshelf
+        I would like to get the water bottle //kitchen, counter
+        I'm looking for the TV remote //living room, side table
+        I want to grab the coffee mug //kitchen, dish rack
+        I’m searching for the pillow //bedroom, bed
+        I would like to find my keys //living room, coffee table
+        I'm looking for the novel //bedroom, bookshelf
+        I want to get the lunch bag //kitchen, refrigerator
+        I would like to find the stapler //home office, drawer
+        I’m searching for a pen //bedroom, desk
