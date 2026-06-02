@@ -1,0 +1,38 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/vuthanh/llm_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/llm_ws/install/scout_msgs/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/llm_ws/install/navigation/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/llm_ws/install/llm_path_planning/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/dbot_ws/install/dbot_msgs/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/dbot_ws/install/dbot_bringup/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/tmech_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/tmech_ws/install/scout_msgs/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/tmech_ws/install/optimal_point/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/tmech_ws/install/mppi_human_following/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/tmech_ws/install/human_gazebo/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/tmech_ws/install/cost_map/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/tmech_ws/install/comparison/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/tmech_ws/install/amfitrack/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/vuthanh/llm_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/llm_ws/install/scout_msgs/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/llm_ws/install/navigation/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/llm_ws/install/llm_path_planning/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/dbot_ws/install/dbot_msgs/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/dbot_ws/install/dbot_bringup/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/tmech_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/tmech_ws/install/scout_msgs/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/tmech_ws/install/optimal_point/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/tmech_ws/install/mppi_human_following/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/tmech_ws/install/human_gazebo/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/tmech_ws/install/cost_map/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/tmech_ws/install/comparison/local/lib/python3.10/dist-packages",
+        "/home/vuthanh/tmech_ws/install/amfitrack/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

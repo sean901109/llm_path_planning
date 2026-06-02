@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/vuthanh/llm_ws/install/velodyne_pointcloud/include/**",
+        "/home/vuthanh/llm_ws/install/velodyne_driver/include/**",
+        "/home/vuthanh/llm_ws/install/velodyne_msgs/include/**",
+        "/home/vuthanh/llm_ws/install/velodyne_laserscan/include/**",
+        "/home/vuthanh/llm_ws/install/scout_msgs/include/**",
+        "/home/vuthanh/dbot_ws/install/dbot_msgs/include/**",
+        "/home/vuthanh/tmech_ws/install/velodyne_pointcloud/include/**",
+        "/home/vuthanh/tmech_ws/install/velodyne_driver/include/**",
+        "/home/vuthanh/tmech_ws/install/velodyne_msgs/include/**",
+        "/home/vuthanh/tmech_ws/install/velodyne_laserscan/include/**",
+        "/home/vuthanh/tmech_ws/install/velodyne_gazebo_plugins/include/**",
+        "/home/vuthanh/tmech_ws/install/scout_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/vuthanh/llm_ws/src/genbot/scout_ros2/scout_base/include/**",
+        "/home/vuthanh/llm_ws/src/genbot/scout_ros2/ugv_sdk/include/**",
+        "/home/vuthanh/llm_ws/src/genbot/velodyne/velodyne_driver/include/**",
+        "/home/vuthanh/llm_ws/src/genbot/velodyne/velodyne_laserscan/include/**",
+        "/home/vuthanh/llm_ws/src/genbot/velodyne/velodyne_pointcloud/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
