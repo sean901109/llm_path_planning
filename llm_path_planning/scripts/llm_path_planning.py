@@ -42,7 +42,8 @@ class GoalPublisher(Node):
         #     print("Failed to read task prompt from file.")
 
         # #===========================GPT===============================#
-        self.client = OpenAI(api_key="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")
+        # self.client = OpenAI(api_key="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")
+        self.client = OpenAI(api_key="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")
         
         # self.timer = self.create_timer(0.1, self.timer_callback)
         self.goal_pub = self.create_publisher(PoseStamped, '/goal_pose', 5)
