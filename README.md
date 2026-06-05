@@ -91,7 +91,6 @@ ros2 launch velodyne_laserscan velodyne_laserscan_node-launch.py #Convert Velody
 ros2 launch navigation slam_navigation.launch.py  #SLAM Navigation (Mapping)
 ros2 launch navigation localization_navigation.launch.py  # Localization Navigation (Using Existing Map)
 cd ~/llm_path_planning/llm_path_planning/scripts
-python3 yoloe.py
 python3 llm_path_planning.py
 ```
 
