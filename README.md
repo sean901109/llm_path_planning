@@ -101,6 +101,7 @@ ros2 launch bunker_simulation robot_experiment.launch.py #Launch RViz
 ros2 launch bunker_base bunker_base.launch.py publish_tf:=false #Bring Up Robot Base
 ros2 launch velodyne velodyne-all-nodes-VLP16-composed-launch.py #Launch Velodyne VLP-16 Sensor Nodes
 ros2 launch zed_wrapper zed_camera.launch.py camera_model:=zedx publish_map_tf:=false publish_tf:=false #Launch Zed X Nodes
+ros2 launch fast_lio_localization localization.launch.py config_file:=velodyne.yaml pcd_map_topic:=cloud_pcd map:=/home/agribot/agribot_ws_test/src/fast_lio/FAST_LIO_LOCALIZATION2/PCD/pcd_map/7f_0126_all.pcd
 ros2 launch navigation navigation.launch.py  #Launch Navigation
 
 ```
